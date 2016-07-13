@@ -1,0 +1,65 @@
+html, body {
+
+height: 100%;
+
+}
+
+body {
+
+margin: 0px 30px;
+padding: 0;
+font-family: Courier;
+
+}
+
+
+
+#content {
+
+margin: 0px;
+
+}
+
+a {text-decoration: none;}
+
+a:hover {text-decoration: underline;}
+
+ul.menu {
+
+background: bisque none repeat scroll 0 0;
+    height: 40px;
+    line-height: 40px;
+    margin: 0;
+    padding: 0 10px;
+    width: auto;
+}
+
+ul.menu > li {
+
+display: inline;
+
+}
+
+ul.menu > li > a {
+
+    
+display: inline-block;
+font-weight: bold;
+height: inherit;
+padding: 0 10px;
+transition: all 0.5s ease 0s;
+
+}
+
+div.block-input {
+
+width: 200px;
+margin: 100px auto auto auto;
+	
+}
+
+div.block-input div {
+
+margin-bottom: 10px; 
+
+}
