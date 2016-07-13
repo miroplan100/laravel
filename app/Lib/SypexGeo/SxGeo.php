@@ -512,7 +512,7 @@ if ($_COOKIE['xxx'] != $get[$key]['cookie_id']) return false;
 
 $redis->set('red',json_encode(array_merge($get,$temp)));
 
-} else {$redis->set('red',json_encode($temp));}
+} else $redis->set('red',json_encode($temp));
 
 if (!array_key_exists('xxx',$_COOKIE)) {
 

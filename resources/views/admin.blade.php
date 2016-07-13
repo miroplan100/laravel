@@ -6,7 +6,7 @@
 
 @foreach ($arr as $key => $value)
 	
-<div style="border: 1px dashed green; padding: 10px; margin: 10px 0px;">
+<div style="border-bottom: 1px dashed green; margin-bottom: 10px;">
 
 <b>#{{($key + 1)}}</b>
 
